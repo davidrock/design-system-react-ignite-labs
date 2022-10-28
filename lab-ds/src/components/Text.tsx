@@ -6,6 +6,7 @@ export interface TextProps {
   children: ReactNode;
   size?: 'xs' | 'sm' | 'md' | 'lg';
   asChild?: boolean
+  className?: string;
 }
 
 export function Text({ size = 'md', children, asChild }: TextProps) {
