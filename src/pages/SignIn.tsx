@@ -62,17 +62,6 @@ function SignIn() {
           </TextInput.Root>
         </label>
 
-        {/* <label htmlFor="password" className="flex flex-col gap-3">
-          <Text className="font-semibold">Sua senha</Text>
-          <TextInput.Root>
-            <TextInput.Icon>
-              <Lock />
-            </TextInput.Icon>
-
-            <TextInput.Input type="password" id="password" placeholder="******" />
-          </TextInput.Root>
-        </label> */}
-
         <label htmlFor="remember" className="flex items-center gap-2">
           <Checkbox id="remember" />
           <Text size="sm" className="text-gray-200">
