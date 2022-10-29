@@ -18,7 +18,7 @@ jobs:
           node-version: 16
 
       - name: Install deps
-        run: yarn install --frozen-lockfile --legacy-peer-deps
+        run: rm -rf node_modules && yarn install --frozen-lockfile --legacy-peer-deps
 
       - name: Build Storybook
         run: yarn build-storybook
